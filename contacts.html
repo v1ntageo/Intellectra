@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contacts.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="brand-logo" href="index.html">
+            <img src="header/logo.svg" alt="Логотип">
+          </a>
+          <span class="brand-title">
+            Лаборатория искусственного интеллекта
+          </span>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="news.html">Новости</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="projects.html">Проекты</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <input class="search-input" type="text" placeholder="Поиск">
+          <button class="search-btn">
+            <img src="header/search.svg" alt="search">
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__wrapper">
+            <h1 class="contacts__title">Контакты</h1>
+            <div class="contacts__inner">
+              <p class="contacts__text">
+                Связаться с нами можно любым удобным для Вас способом. Отправьте письмо на почту, позвоните или оставьте сообщение ниже.
+              </p>
+              <form class="contacts__form">
+                <input class="contacts__form-name" type="text" placeholder="Имя*">
+                <input class="contacts__form-email" type="text" placeholder="Email*">
+                <textarea class="contacts__form-message" placeholder="Сообщение*"></textarea>
+              </form>
+              <button class="contacts__btn">Отправить</button>
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <a class="contacts__item-content" href="mailto:info@intellectra.ru">
+                    <img src="contacts/email.svg" alt="">
+                    <span class="contacts__link">
+                      info@intellectra.ru
+                    </span>
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__item-content" href="#">
+                    <img src="contacts/location.svg" alt="">
+                    <span class="contacts__link">
+                      606031, Дзержинск, пр-кт Ленинского комсомола 54
+                    </span>
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__item-content" class="contacts__item-content" href="#">
+                    <img src="contacts/compass.svg" alt="">
+                    <span class="contacts__link">
+                      Научно-лабораторный корпус, 4-й этаж, каб. 4.60
+                    </span>
+                  </a>
+                </li>
+              </ul>
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Add356b3dd47c0721a11fbcf9e37dc0ef916803d14f24d4f8b7c9544b119590d2&amp;source=constructor" width="880" height="500" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <p class="footer__info-text">
+              Будьте в курсе новостей ИИ
+            </p>
+            <h2 class="footer__info-title">
+              Центр обучения ИИ
+            </h2>
+            <ul class="footer__info-social-list">
+              <li class="footer__info__social-item">
+                <a class="footer__info-social-link" href="#">
+                  <img src="footer/social-1.svg" alt="vk">
+                </a>
+              </li>
+              <li class="footer__info__social-item">
+                <a class="footer__info-social-link" href="#">
+                  <img src="footer/social-2.svg" alt="instagram">
+                </a>
+              </li>
+              <li class="footer__info__social-item">
+                <a class="footer__info-social-link" href="#">
+                  <img src="footer/social-3.svg" alt="youtube">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__contacts">
+            <div class="footer__contacts-form">
+              <input class="footer__contacts-form-email" type="mailto" placeholder="Введите адрес электронной почты">
+              <button class="footer__contacts-form-subscribe">Подписаться</button>
+            </div>
+            <div class="footer__contacts-box">
+              <ul class="footer__contacts-help-list">
+                <li class="footer__contacts-help-title">
+                  Обратиться за помощью
+                </li>
+                <li class="footer__contacts-help-item">
+                  <a class="footer__contacts-help-link" href="#">
+                    FAQs
+                  </a>
+                </li>
+                <li class="footer__contacts-help-item">
+                  <a class="footer__contacts-help-link" href="#">
+                    Служба поддержки
+                  </a>
+                </li>
+                <li class="footer__contacts-help-item">
+                  <a class="footer__contacts-help-link" href="#">
+                    Помощь по ИИ
+                  </a>
+                </li>
+                <li class="footer__contacts-help-item">
+                  <a class="footer__contacts-help-link" href="#">
+                    Связаться с нами
+                  </a>
+                </li>
+              </ul>
+              <ul class="footer__contacts-other-list">
+                <li class="footer__contacts-other-title">
+                  Другие темы
+                </li>
+                <li class="footer__contacts-other-item">
+                  <a class="footer__contacts-other-link" href="#">
+                    Политика конфиденциальности
+                  </a>
+                </li>
+                <li class="footer__contacts-other-item">
+                  <a class="footer__contacts-other-link" href="#">
+                    Карта сайта
+                  </a>
+                </li>
+                <li class="footer__contacts-other-item">
+                  <a class="footer__contacts-other-link" href="#">
+                    Подписки
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

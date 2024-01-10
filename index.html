@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="magnific-popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="brand-logo" href="index.html">
+            <img class="brand-logo__img" src="header/logo.svg" alt="Логотип">
+          </a>
+          <span class="brand-title">
+            Лаборатория искусственного интеллекта
+          </span>
+          <nav class="menu">
+            <button class="menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="news.html">Новости</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="projects.html">Проекты</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <input class="search-input" type="text" placeholder="Поиск">
+          <button class="search-btn">
+            <img src="header/search.svg" alt="search">
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">
+            Наша миссия в мире искусственного интеллекта
+          </h1>
+          <p class="hero__text">
+            Intellectra представляет собой инновационный центр, посвященный разработке передовых технологий. Мы стремимся преобразовать будущее через передовые исследования, обучение машин и создание интеллектуальных решений. Присоединяйтесь к нам в этом захватывающем путешествии в мире ИИ!
+          </p>
+          <div class="hero__btns">
+            <a class="start-btn btn" href="#">Начать</a>
+            <a class="how-to-work-btn btn" href="#">Как это работает</a>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title">О нас</h2>
+          <div class="about__inner">
+            <div class="about__content">
+              <h3 class="about__content-title">
+                Мы - ваш ИИ партнер
+              </h3>
+              <p class="about__content-text">
+                Добро пожаловать в Intellectra – место, где инновации встречаются с прорывами. Наша лаборатория является катализатором для технологических преобразований.
+              </p>
+              <a class="start-btn btn" href="#">Начать</a>
+            </div>
+            <div class="about__popup">
+              <a class="about__popup-link" href="https://www.youtube.com/watch?v=gnf92z8f-PM&ab_channel=%D0%A2%D0%B8%D0%BC%D0%B8%D1%80%D1%8F%D0%B7%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F">
+                Intellectra
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <div class="blog__inner">
+            <div class="blog__filter">
+              <div class="blog__filter-mobile">
+                <a class="blog__filter-difficult" href="#">
+                  <span>Сложность</span>
+                  <img class="blog__filter-img--mobile" src="main/blog/arrow-right.svg" alt="">
+                </a>
+                <a class="blog__filter-filters" href="#">
+                  <img src="main_images/Blog/filters.svg" alt="">
+                  <span>Фильтры</span>
+                </a>
+              </div>
+              <ul class="blog__filter-list">
+                <li class="blog__filter-title">Filter</li>
+                <li class="blog__filter-item">
+                  <a class="blog__filter-link" href="#">Тип темы</a>
+                  <img class="blog__filter-img" src="main/blog/arrow-right.svg" alt="">
+                </li>
+                <li class="blog__filter-item">
+                  <a class="blog__filter-link" href="#">Уровень</a>
+                  <img class="blog__filter-img" src="main/blog/arrow-right.svg" alt="">
+                </li>
+                <li class="blog__filter-item">
+                  <a class="blog__filter-link" href="#">Сложность</a>
+                  <img class="blog__filter-img" src="main/blog/arrow-right.svg" alt="">
+                </li>
+                <li class="blog__filter-item">
+                  <a class="blog__filter-link" href="#">Язык</a>
+                  <img class="blog__filter-img" src="main/blog/arrow-right.svg" alt="">
+                </li>
+                <li class="blog__filter-item">
+                  <a class="blog__filter-link" href="#">Источник</a>
+                  <img class="blog__filter-img" src="main/blog/arrow-right.svg" alt="">
+                </li>
+              </ul>
+            </div>
+            <div class="blog__content">
+              <div class="blog__content-tags">
+                <button class="blog__content-tags-item blog__content-tags-item--ai">
+                  Искусственный интеллект
+                </button>
+                <button class="blog__content-tags-item blog__content-tags-item--nl">
+                  Обработка естественного языка
+                </button>
+                <button class="blog__content-tags-item blog__content-tags-item--cv">
+                  Компьютерное зрение
+                </button>
+                <button class="blog__content-tags-item blog__content-tags-item--bl">
+                  Основы обучения
+                </button>
+              </div>
+              <div class="blog__content-items">
+                <a class="blog__content-item ai" href="#">
+                  <img class="blog__content-item-img" src="main/blog/01.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    Введение в ИИ
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item ai" href="#">
+                  <img class="blog__content-item-img" src="main/blog/02.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    Нейронные сети
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item ai" href="#">
+                  <img class="blog__content-item-img" src="main/blog/03.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    Приложения ИИ
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item cv" href="#">
+                  <img class="blog__content-item-img" src="main/blog/04.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    Компьютерное зрение
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+
+                <button class="readmore readmore--mobile">Показать ещё</button>
+
+                <a class="blog__content-item ai" href="#">
+                  <img class="blog__content-item-img" src="main/blog/05.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    Этика ИИ и предвзятость
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item ai" href="#">
+                  <img class="blog__content-item-img" src="main/blog/06.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    ИИ в робототехнике
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item cv" href="#">
+                  <img class="blog__content-item-img" src="main/blog/07.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    Компьютерное зрение
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item" href="#">
+                  <img class="blog__content-item-img" src="main/blog/08.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    Рекомендательные системы
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+
+                <button class="readmore readmore--mobile">Показать ещё</button>
+
+                <a class="blog__content-item" href="#">
+                  <img class="blog__content-item-img" src="main/blog/09.jpg" alt="">
+                  <span class="blog__content-item-title">
+                    Методы анализа данных
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+
+                <button class="readmore readmore--normal">Показать ещё</button>
+
+                <a class="blog__content-item hidden ai" href="#">
+                  <img class="blog__content-item-img" src="main/blog/10.jpg" alt="">
+                  <span class="blog__content-item-title blog__content-item-title--medium">
+                    Этика ИИ и предвзятость
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item hidden bl" href="#">
+                  <img class="blog__content-item-img" src="main/blog/11.jpg" alt="">
+                  <span class="blog__content-item-title blog__content-item-title--medium">
+                    Основы машинного обучения
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item hidden bl" href="#">
+                  <img class="blog__content-item-img" src="main/blog/12.jpg" alt="">
+                  <span class="blog__content-item-title blog__content-item-title--medium">
+                    Основы глубокого обучения
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+
+                <button class="readmore readmore--mobile">Показать ещё</button>
+
+                <a class="blog__content-item hidden ai" href="#">
+                  <img class="blog__content-item-img" src="main/blog/13.jpg" alt="">
+                  <span class="blog__content-item-title blog__content-item-title--medium">
+                    Технология распознавания речи
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item hidden nl" href="#">
+                  <img class="blog__content-item-img" src="main/blog/14.jpg" alt="">
+                  <span class="blog__content-item-title blog__content-item-title--medium">
+                    Обработка естественного языка
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+                <a class="blog__content-item hidden nl" href="#">
+                  <img class="blog__content-item-img" src="main/blog/15.jpg" alt="">
+                  <span class="blog__content-item-title blog__content-item-title--medium">
+                    Обработка естественного языка
+                  </span>
+                  <div class="blog__content-item-btn">Бесплатно</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="discover">
+        <div class="container">
+          <div class="discover__inner">
+            <div class="discover__content">
+              <h2 class="discover__content-title">
+                Откройте для себя
+              </h2>
+              <p class="discover__content-text">
+                Раскройте потенциал Искусственного интеллекта с помощью нашей подборки тем. Независимо от того, новичок вы или эксперт, наши обширные ресурсы помогут вам глубоко погрузиться в мир ИИ. Исследуйте различные приложения, узнавайте о передовых технологиях и понимайте влияние искусственного интеллекта на различные отрасли. Присоединяйтесь к нам в этом захватывающем путешествии!
+              </p>
+              <button class="discover__content-btn">
+                Начните сейчас
+              </button>
+            </div>
+            <div class="discover__slider">
+              <div class="discover__slide">
+                <div class="discover__slide-inner">
+                  <img class="discover__slide-img" src="main/discover/01.jpg" alt="">
+                  <button class="discover__slide-btn">
+                    Исследуй
+                  </button>
+                  <h4 class="discover__slide-title">
+                    Виртуальные помощники
+                  </h4>
+                  <p class="discover__slide-descr">
+                    Расширьте свои знания в области ИИ
+                  </p>
+                </div>
+              </div>
+              <div class="discover__slide">
+                <div class="discover__slide-inner">
+                  <img class="discover__slide-img" src="main/discover/02.jpg" alt="">
+                  <button class="discover__slide-btn">
+                    Начните сейчас
+                  </button>
+                  <h4 class="discover__slide-title">
+                    Обучение с подкреплением
+                  </h4>
+                  <p class="discover__slide-descr">
+                    Мастерство алгоритмов ИИ
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <p class="footer__info-text">
+              Будьте в курсе новостей ИИ
+            </p>
+            <h2 class="footer__info-title">
+              Центр обучения ИИ
+            </h2>
+            <ul class="footer__info-social-list">
+              <li class="footer__info__social-item">
+                <a class="footer__info-social-link" href="https://vk.com">
+                  <img class="footer__info-social-img" src="footer/social-1.svg" alt="vk">
+                </a>
+              </li>
+              <li class="footer__info__social-item">
+                <a class="footer__info-social-link" href="https://www.instagram.com">
+                  <img class="footer__info-social-img" src="footer/social-2.svg" alt="instagram">
+                </a>
+              </li>
+              <li class="footer__info__social-item">
+                <a class="footer__info-social-link" href="https://www.youtube.com">
+                  <img class="footer__info-social-img" src="footer/social-3.svg" alt="youtube">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__contacts">
+            <div class="footer__contacts-form">
+              <input class="footer__contacts-form-email" type="mailto" placeholder="Введите адрес электронной почты">
+              <button class="footer__contacts-form-subscribe">
+                Подписаться
+              </button>
+              <ul class="footer__info-social-list--mobile">
+                <li class="footer__info__social-item">
+                  <a class="footer__info-social-link" href="https://vk.com">
+                    <img class="footer__info-social-img" src="footer/social-1.svg" alt="vk">
+                  </a>
+                </li>
+                <li class="footer__info__social-item">
+                  <a class="footer__info-social-link" href="https://www.instagram.com">
+                    <img class="footer__info-social-img" src="footer/social-2.svg" alt="instagram">
+                  </a>
+                </li>
+                <li class="footer__info__social-item">
+                  <a class="footer__info-social-link" href="https://www.youtube.com">
+                    <img class="footer__info-social-img" src="footer/social-3.svg" alt="youtube">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__contacts-box">
+              <ul class="footer__contacts-help-list">
+                <li class="footer__contacts-help-title">
+                  Обратиться за помощью
+                </li>
+                <li class="footer__contacts-help-item">
+                  <a class="footer__contacts-help-link" href="#">
+                    FAQs
+                  </a>
+                </li>
+                <li class="footer__contacts-help-item">
+                  <a class="footer__contacts-help-link" href="#">
+                    Служба поддержки
+                  </a>
+                </li>
+                <li class="footer__contacts-help-item">
+                  <a class="footer__contacts-help-link" href="#">
+                    Помощь по ИИ
+                  </a>
+                </li>
+                <li class="footer__contacts-help-item">
+                  <a class="footer__contacts-help-link" href="#">
+                    Связаться с нами
+                  </a>
+                </li>
+              </ul>
+              <ul class="footer__contacts-other-list">
+                <li class="footer__contacts-other-title">
+                  Другие темы
+                </li>
+                <li class="footer__contacts-other-item">
+                  <a class="footer__contacts-other-link" href="#">
+                    Политика конфиденциальности
+                  </a>
+                </li>
+                <li class="footer__contacts-other-item">
+                  <a class="footer__contacts-other-link" href="#">
+                    Карта сайта
+                  </a>
+                </li>
+                <li class="footer__contacts-other-item">
+                  <a class="footer__contacts-other-link" href="#">
+                    Подписки
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="jquery.magnific-popup.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
